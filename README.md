@@ -9,6 +9,7 @@ This Python script performs a backup of a source folder to a replica folder, bot
 * Log path can point to a folder or the log file
 * Detects and updates changed files using hashing
 * Deletes files and folders that no longer exist in the source
+* Ensures nested folders are deleted correctly
 * Ignores files that already exist in the replica folder and have not changed in the source folder
 * Logs all operations to a file and console
 * Error protection
