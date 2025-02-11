@@ -28,6 +28,7 @@ Error Handling features:
   * Ensures that if the source folder is deleted the script does not crash. Instead, it logs an error and exits
   * Ensures that if either the replica or the log folder is deleted they are created again and the backups keep running normally
 * Ensures files that can not be copied due to some error or lack of permission are ignored and do not crash the script
+* Ensures synchronization interval is a positive number
 
 To run use the command:
 
@@ -38,3 +39,15 @@ Arguments can be provided in any order and are the following:
 * replica → Path to the replica folder (copy)
 * interval → Sync interval in seconds
 * log_file → Path to the log file
+
+<pre>
+  <code>
+    npm install my-package
+  </code>
+</pre>
+
+<!-- Button will not function in plain markdown, but this is for styling -->
+<div style="background: #f1f1f1; padding: 10px; border-radius: 5px; position: relative;">
+  <button onclick="navigator.clipboard.writeText('npm install my-package')" style="position: absolute; right: 10px; top: 10px; padding: 5px 10px;">Copy</button>
+  <code>npm install my-package</code>
+</div>
