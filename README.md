@@ -1,8 +1,8 @@
-# File-sync
+# File-sync Python script
 
-## One-way folder backup script where a replica folder is modified to exactly match the content of a source folder
+## One-way folder backup Python script where a replica folder is modified to exactly match the content of a source folder
 
-This script performs a backup of a source folder to a replica folder, both defined by the user. The user also specifies the synchronization interval to meet the requirements of their RPO as well as the destination folder of the log file. The features of this script include:
+This Python script performs a backup of a source folder to a replica folder, both defined by the user. The user also specifies the synchronization interval to meet the requirements of their RPO as well as the destination folder of the log file. The features of this script include:
 * One-way synchronization
 * Periodic execution with a configurable interval
 * All paths and the synchronization interval are defined by the user
