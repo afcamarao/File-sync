@@ -27,7 +27,7 @@ Error Handling features:
 * Folders deleted while script is running
   * Ensures that if the source folder is deleted the script does not crash. Instead, it logs an error and exits
   * Ensures that if either the replica or the log folder is deleted they are created again and the backups keep running normally
-*Ensures files that can not be copied due to some error or lack of permission are ignored and do not crash the script
+* Ensures files that can not be copied due to some error or lack of permission are ignored and do not crash the script
 
 To run use the command:
 
