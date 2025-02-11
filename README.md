@@ -32,22 +32,15 @@ Error Handling features:
 
 To run use the command:
 
+<pre>
+  <code>
 python file_sync.py --source "path/to/source" --replica "path/to/replica" --interval 60 --log_file "path/to/log.txt"
+  </code>
+</pre>
+
 
 Arguments can be provided in any order and are the following:
 * source → Path to the source folder (original)
 * replica → Path to the replica folder (copy)
 * interval → Sync interval in seconds
 * log_file → Path to the log file
-
-<pre>
-  <code>
-    npm install my-package
-  </code>
-</pre>
-
-<!-- Button will not function in plain markdown, but this is for styling -->
-<div style="background: #f1f1f1; padding: 10px; border-radius: 5px; position: relative;">
-  <button onclick="navigator.clipboard.writeText('npm install my-package')" style="position: absolute; right: 10px; top: 10px; padding: 5px 10px;">Copy</button>
-  <code>npm install my-package</code>
-</div>
